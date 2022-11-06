@@ -45,7 +45,50 @@ a:link {
   color: #718cae;
   font-size: 3rem;
   padding-right: 50vh;
+  letter-spacing: 3px;
 }
 .hero span {
   color: white;
 }/*# sourceMappingURL=style.css.map */
+
+.expe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.expe h1 {
+  color: #718cae;
+  font-size: 3rem;
+  padding-top: 10vh;
+}
+
+.expe h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.expe h3 {
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: grey;
+  margin-bottom: 2vh;
+  font-size: 1.7rem;
+}
+
+.expe p {
+  letter-spacing: 0.5px;
+  padding-bottom: 2vh;  
+}
+
+.expe span {
+  color: white;
+}
+
+.expe span.date {
+  color: rgb(135, 135, 236); 
+  font-size: 1.2rem; 
+}
