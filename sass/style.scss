@@ -24,14 +24,14 @@ nav ul  {
     max-height: 100%;
     height: 50px;
     font-size: 1.5rem;
-    color: #68515a;
+    color: $primary-color;
     background-color: #1e1d1e;
     text-transform: none;
     text-decoration: none;
     align-items: center;
     li a{
         list-style: none;
-        color: #718cae;
+        color: $primary-color;
         }
 }
 a:link {
@@ -47,8 +47,8 @@ a:link {
         justify-content: center;
         padding-top: 50px;
     }
-    h1 {
-        color: #718cae;
+    h1.name {
+        color: $primary-color;
         font-size: 3rem;
         padding-right: 50vh;
     }
@@ -56,4 +56,3 @@ a:link {
         color: white;
     }
 }
-
